@@ -1,0 +1,160 @@
+/usr/sbin/mysqld, Version: 8.0.29 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.29 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
+# Time: 2022-07-21T23:25:34.310754+08:00
+# User@Host: root[root] @ localhost []  Id:     8
+# Query_time: 1.011467  Lock_time: 0.000008 Rows_sent: 0  Rows_examined: 0
+use mysql;
+SET timestamp=1658417133;
+INSERT INTO time_zone_transition (Time_zone_id, Transition_time, Transition_type_id) VALUES
+ (@time_zone_id, -2147483648, 2)
+,(@time_zone_id, -929844000, 1)
+,(@time_zone_id, -923108400, 2)
+,(@time_zone_id, -906170400, 1)
+,(@time_zone_id, -892868400, 2)
+,(@time_zone_id, -875844000, 1)
+,(@time_zone_id, -857790000, 2)
+,(@time_zone_id, -844308000, 1)
+,(@time_zone_id, -825822000, 2)
+,(@time_zone_id, -812685600, 1)
+,(@time_zone_id, -794199600, 2)
+,(@time_zone_id, -779853600, 1)
+,(@time_zone_id, -762663600, 2)
+,(@time_zone_id, -399088800, 1)
+,(@time_zone_id, -386650800, 2)
+,(@time_zone_id, -368330400, 1)
+,(@time_zone_id, -355114800, 2)
+,(@time_zone_id, -336790800, 1)
+,(@time_zone_id, -323654400, 2)
+,(@time_zone_id, -305168400, 1)
+,(@time_zone_id, -292032000, 2)
+,(@time_zone_id, -273632400, 1)
+,(@time_zone_id, -260496000, 2)
+,(@time_zone_id, -242096400, 1)
+,(@time_zone_id, -228960000, 2)
+,(@time_zone_id, -210560400, 1)
+,(@time_zone_id, -197424000, 2)
+,(@time_zone_id, -178938000, 1)
+,(@time_zone_id, -165801600, 2)
+,(@time_zone_id, -147402000, 1)
+,(@time_zone_id, -134265600, 2)
+,(@time_zone_id, -115866000, 1)
+,(@time_zone_id, -102643200, 2)
+,(@time_zone_id, -84330000, 1)
+,(@time_zone_id, -71107200, 2)
+,(@time_zone_id, -52707600, 1)
+,(@time_zone_id, -39484800, 2)
+,(@time_zone_id, -21171600, 1)
+,(@time_zone_id, -7948800, 2)
+,(@time_zone_id, 10364400, 1)
+,(@time_zone_id, 23587200, 2)
+,(@time_zone_id, 41900400, 1)
+,(@time_zone_id, 55123200, 2)
+,(@time_zone_id, 73522800, 1)
+,(@time_zone_id, 86745600, 2)
+,(@time_zone_id, 105058800, 1)
+,(@time_zone_id, 118281600, 2)
+,(@time_zone_id, 136594800, 1)
+,(@time_zone_id, 149817600, 2)
+,(@time_zone_id, 168130800, 1)
+,(@time_zone_id, 181353600, 2)
+,(@time_zone_id, 199753200, 1)
+,(@time_zone_id, 212976000, 2)
+,(@time_zone_id, 231289200, 1)
+,(@time_zone_id, 244512000, 2)
+,(@time_zone_id, 262825200, 1)
+,(@time_zone_id, 276048000, 2)
+,(@time_zone_id, 294361200, 1)
+,(@time_zone_id, 307584000, 2)
+,(@time_zone_id, 325983600, 1)
+,(@time_zone_id, 339206400, 2)
+,(@time_zone_id, 357519600, 1)
+,(@time_zone_id, 370742400, 2)
+,(@time_zone_id, 396399600, 1)
+,(@time_zone_id, 402278400, 2)
+,(@time_zone_id, 426812400, 1)
+,(@time_zone_id, 433814400, 2)
+,(@time_zone_id, 452214000, 1)
+,(@time_zone_id, 465436800, 2)
+,(@time_zone_id, 483750000, 1)
+,(@time_zone_id, 496972800, 2)
+,(@time_zone_id, 515286000, 1)
+,(@time_zone_id, 528508800, 2)
+,(@time_zone_id, 546822000, 1)
+,(@time_zone_id, 560044800, 2)
+,(@time_zone_id, 578444400, 1)
+,(@time_zone_id, 591667200, 2)
+,(@time_zone_id, 610412400, 1)
+,(@time_zone_id, 623203200, 2)
+,(@time_zone_id, 641516400, 1)
+,(@time_zone_id, 654739200, 2)
+,(@time_zone_id, 673052400, 1)
+,(@time_zone_id, 686275200, 2)
+,(@time_zone_id, 704674800, 1)
+,(@time_zone_id, 717897600, 2)
+,(@time_zone_id, 736210800, 1)
+,(@time_zone_id, 749433600, 2)
+,(@time_zone_id, 767746800, 1)
+,(@time_zone_id, 780969600, 2)
+,(@time_zone_id, 799020000, 3)
+,(@time_zone_id, 812322000, 2)
+,(@time_zone_id, 830469600, 3)
+,(@time_zone_id, 843771600, 2)
+,(@time_zone_id, 861919200, 3)
+,(@time_zone_id, 875221200, 2)
+,(@time_zone_id, 893368800, 3)
+,(@time_zone_id, 906670800, 2)
+,(@time_zone_id, 925423200, 3)
+,(@time_zone_id, 938725200, 2)
+,(@time_zone_id, 956872800, 3)
+,(@time_zone_id, 970174800, 2)
+,(@time_zone_id, 988322400, 3)
+,(@time_zone_id, 1001624400, 2)
+,(@time_zone_id, 1019772000, 3)
+,(@time_zone_id, 1033074000, 2)
+,(@time_zone_id, 1051221600, 3)
+,(@time_zone_id, 1064523600, 2)
+,(@time_zone_id, 1083276000, 3)
+,(@time_zone_id, 1096578000, 2)
+,(@time_zone_id, 1114725600, 3)
+,(@time_zone_id, 1128027600, 2)
+,(@time_zone_id, 1146175200, 3)
+,(@time_zone_id, 1158872400, 2)
+,(@time_zone_id, 1177624800, 3)
+,(@time_zone_id, 1189112400, 2)
+,(@time_zone_id, 1209074400, 3)
+,(@time_zone_id, 1219957200, 2)
+,(@time_zone_id, 1240524000, 3)
+,(@time_zone_id, 1250802000, 2)
+,(@time_zone_id, 1272578400, 3)
+,(@time_zone_id, 1281474000, 2)
+,(@time_zone_id, 1284069600, 1)
+,(@time_zone_id, 1285880400, 2)
+,(@time_zone_id, 1400191200, 1)
+,(@time_zone_id, 1403816400, 2)
+,(@time_zone_id, 1406844000, 1)
+,(@time_zone_id, 1411678800, 2);
+/usr/sbin/mysqld, Version: 8.0.29 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.29 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.29 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.29 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.29 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.29 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.29 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/lib/mysql/mysql.sock
+Time                 Id Command    Argument
