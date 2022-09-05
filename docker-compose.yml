@@ -15,17 +15,3 @@ services:
     build: ./php
     volumes:
       - ./server:/var/www/:delegated
-
-  db:
-    build: ./mysql
-    volumes:
-      - ./mysql/data/:/var/lib/mysql
-    ports:
-      - 3306:3306
-
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin:latest
-    ports:
-      - 8811:80
-    depends_on:
-      - db

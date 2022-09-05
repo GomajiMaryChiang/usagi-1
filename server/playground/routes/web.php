@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Main\IndexController;
+use App\Http\Controllers\Main\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// ===== Main =====
+Route::get('/ii', IndexController::class); // 首頁
+Route::get('/login', LoginController::class); // 登入頁
+// ===== End: Main =====
